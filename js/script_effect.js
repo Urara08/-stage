@@ -1,8 +1,8 @@
 function open_curtain(){
-$("#curtain1").animate({width:20},1000);
-$("#curtain2").animate({width:20},1000);
+$("#curtain1").animate({width:20, height:410},1000);
+$("#curtain2").animate({width:20, height:410},1000);
 }
 function close_curtain(){
-$("#curtain1").animate({width:200},1000);
-$("#curtain2").animate({width:200},1000);
+$("#curtain1").animate({width:365},1000);
+$("#curtain2").animate({width:365},1000);
 }

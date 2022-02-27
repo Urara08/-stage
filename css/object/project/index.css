@@ -82,6 +82,7 @@
   min-width: 80%;
   height: 0;
   padding-bottom: 46.25%;
+  overflow: hidden;
 }
 
 .p-hero__label {
@@ -129,9 +130,14 @@
   width: 50%;
 }
 
+#curtain_buttons {
+  display: block;
+  width: 100%;
+  margin: 100px auto auto 100px;
+}
+
 #curtain_buttons input[type=button] {
   width: 150px;
-  margin-top: 200px;
   height: 45px;
   border-radius: 2px;
   color: white;

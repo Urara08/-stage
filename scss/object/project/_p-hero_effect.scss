@@ -1,21 +1,17 @@
 
 
-#wrapper
-{
-position: absolute;
-z-index: 200;
-
-
- width:100%;
- height:auto;
-}
-#effect{
-
+#wrapper{
   position: absolute;
-z-index: 200;
+  z-index: 200;
   width:100%;
+  height:auto;
+}
 
 
+#effect{
+  position: absolute;
+  z-index: 200;
+  width:100%;
 }
 
 #curtain1{
@@ -33,10 +29,15 @@ z-index: 200;
   width: 50%;
 }
 
+#curtain_buttons{
+  display: block;
+  width: 100%;
+  margin: 100px auto auto  100px;
+}
 
 #curtain_buttons input[type="button"]{
   width:150px;
-  margin-top:200px;
+
 
   height:45px;
   border-radius:2px;
