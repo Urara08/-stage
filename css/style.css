@@ -204,6 +204,44 @@ p, h2, h3 {
   width: 100%;
 }
 
+#wrapper {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: auto;
+}
+
+#effect {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+}
+
+#curtain1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+}
+
+#curtain2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 50%;
+}
+
+#curtain_buttons input[type=button] {
+  width: 150px;
+  margin-top: 200px;
+  height: 45px;
+  border-radius: 2px;
+  color: white;
+  background-color: #B43104;
+  border: none;
+  border-bottom: 6px solid #8A2908;
+}
+
 .p-button__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

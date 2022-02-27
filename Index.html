@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/script.js"></script>
-
+  <script src="js/script_effect.js"></script>
 </head>
 <body class="l-body">
   <div class="p-body">
@@ -41,15 +41,37 @@
 
           <section class="p-hero">
             <h2 class="p-hero__label">Portfolio</h2>
+
+                        <!--イフェクト-->
+                        <div id="wrapper"><!--イフェクトのwrapper-->
+
+                          <div id="effect">
+                          <br><br><br>
+
+                          <img src="img/curtain1.png" id="curtain1">
+                          <img src="img/curtain2.png" id="curtain2">
+                          </div>
+
+                          <div id="curtain_buttons">
+                          <input type="button" value="カーテンを開く" onclick="open_curtain();">
+                          <input type="button" value="カーテンを閉じる" onclick="close_curtain();">
+                          </div>
+
+                        </div>
+                                      <!--イフェクト-->
+
+
             <video src="img/hero_dance.mov"  controls muted autoplay playsinline loop class="p-hero__mov" ></video>
           </section>
+
+
+
           <!--最初に戻るボタン-->
       <div class="p-button__wrapper">
         <button class="p-button js-page_top" href="#"><p class="c-btn-label">For Top</p></button>
       </div>
           <!--ボタンここまで-->
-
-        </div>
+</div>
   </main>
       <footer class="l-footer">
         <div class="p-footer">
