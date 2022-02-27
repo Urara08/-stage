@@ -23,6 +23,7 @@
           <div class="c-wrapper__logo">
             <h1 class="c-logo--title all">momo.net</h1>
           </div>
+
           <nav class="p-header__nav__block">
             <ul  id="page-link" class="p-header__nav">
               <li class="p-header__nav__item"><a class="p-header__nav__item_label all" href="#about">about</a></li>
@@ -39,39 +40,34 @@
       <main class="l-main">
         <div class="p-main">
 
-          <section class="p-hero">
+          <section class="p-hero"><!--ビデオここから-->
             <h2 class="p-hero__label">Portfolio</h2>
 
                         <!--イフェクト-->
                         <div id="wrapper"><!--イフェクトのwrapper-->
-
                           <div id="effect">
                           <br><br><br>
-
                           <img src="img/curtain1.png" id="curtain1">
                           <img src="img/curtain2.png" id="curtain2">
                           </div>
-
-
                         </div>
+                        <!--イフェクト-->
 
-                                      <!--イフェクト-->
+                        <video src="img/hero_dance.mov"  controls muted autoplay playsinline loop class="p-hero__mov" ></video>
+                      </section>
 
-
-            <video src="img/hero_dance.mov"  controls muted autoplay playsinline loop class="p-hero__mov" ></video>
-
-        </section>
         <div id="curtain_buttons"><!--イフェクトのボタン-->
           <input type="button" value="カーテンを開く" onclick="open_curtain();">
           <input type="button" value="カーテンを閉じる" onclick="close_curtain();">
-          </div><!--イフェクトのボタン-->
+        </div><!--イフェクトのボタン-->
 
 
           <!--最初に戻るボタン-->
-      <div class="p-button__wrapper">
-        <button class="p-button js-page_top" href="#"><p class="c-btn-label">For Top</p></button>
-      </div>
+          <div class="p-button__wrapper">
+            <button class="p-button js-page_top" href="#"><p class="c-btn-label">For Top</p></button>
+          </div>
           <!--ボタンここまで-->
+
 </div>
   </main>
       <footer class="l-footer">
