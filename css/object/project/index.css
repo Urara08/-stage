@@ -8,14 +8,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 80;
   width: 100%;
   height: 60px;
-  background-color: #ffc9d2;
   font-family: "Architects Daughter", cursive;
-  opacity: 1;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  overflow: hidden;
 }
 
 .p-header__wrapper {
@@ -79,7 +78,6 @@
   position: relative;
   z-index: 40;
   width: 100%;
-  min-width: 80%;
   height: 0;
   padding-bottom: 46.25%;
   overflow: hidden;
@@ -87,10 +85,10 @@
 
 .p-hero__label {
   position: absolute;
-  z-index: 70;
-  top: 140px;
-  left: 15%;
-  font-size: 48px;
+  z-index: 80;
+  top: 200px;
+  left: 10%;
+  font-size: 40px;
   font-family: "Architects Daughter", cursive;
   color: white;
 }
@@ -101,6 +99,15 @@
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.black {
+  position: absolute;
+  z-index: 70;
+  width: 100%;
+  height: 100%;
+  background-color: #161616;
+  opacity: 0.6;
 }
 
 #wrapper {
@@ -135,16 +142,17 @@
 #curtain_buttons {
   display: block;
   width: 100%;
+  margin-top: 25px;
 }
 
 #curtain_buttons input[type=button] {
-  width: 150px;
-  height: 45px;
+  width: 100px;
+  height: 25px;
   border-radius: 2px;
   color: white;
-  background-color: #B43104;
+  background-color: #ffc9d2;
   border: none;
-  border-bottom: 6px solid #8A2908;
+  border-bottom: 6px #ffc9d2;
 }
 
 .p-button__wrapper {
