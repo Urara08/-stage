@@ -86,9 +86,9 @@
 .p-hero__label {
   position: absolute;
   z-index: 80;
-  top: 200px;
-  left: 10%;
-  font-size: 40px;
+  top: 250px;
+  right: 10%;
+  font-size: 60px;
   font-family: "Architects Daughter", cursive;
   color: white;
 }
