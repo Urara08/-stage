@@ -234,10 +234,10 @@ p, h2, h3 {
 
 .p-hero__label {
   position: absolute;
-  z-index: 80;
-  top: 250px;
+  z-index: 120;
+  bottom: 50px;
   right: 10%;
-  font-size: 60px;
+  font-size: 30px;
   font-family: "Architects Daughter", cursive;
   color: white;
 }
@@ -286,22 +286,6 @@ p, h2, h3 {
   top: 0px;
   right: 0;
   width: 50%;
-}
-
-#curtain_buttons {
-  display: block;
-  width: 100%;
-  margin-top: 25px;
-}
-
-#curtain_buttons input[type=button] {
-  width: 100px;
-  height: 25px;
-  border-radius: 2px;
-  color: white;
-  background-color: #ffc9d2;
-  border: none;
-  border-bottom: 6px #ffc9d2;
 }
 
 .p-button__wrapper {
