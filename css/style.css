@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-body {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-footer {
+  max-width: 100%;
+  min-width: 375px;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-header {
+  position: relative;
+  max-width: 100%;
+  min-width: 375px;
+  overflow: hidden;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-main {
+  max-width: 100%;
+  min-width: 375px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p, h2, h3 {
+  font-family: MPLUS1p;
+}
+
+.c-logo--title {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: #e2f020;
+  font-family: "Architects Daughter", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.p-contents {
+  background-image: url(../img/p-body_2.jpg);
+  background-size: contain;
+  background-size: cover;
+}
+
+.p-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 60px;
+  background-color: #ffc9d2;
+  font-family: "Architects Daughter", cursive;
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.p-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+  margin-right: 40px;
+}
+
+.p-header__nav__block {
+  margin-top: -10px;
+  width: 40%;
+  height: 25px;
+}
+
+.p-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 35%;
+}
+
+.p-header__nav__item_label {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+.p-footer {
+  width: 100%;
+  height: 60px;
+  padding-top: 2.5%;
+  background-color: #ffc9d2;
+}
+
+.p-footer__menu {
+  text-align: center;
+}
+
+.p-footer__menu__copy {
+  font-family: "Architects Daughter", cursive;
+  color: gray;
+  font-weight: bold;
+}
+
+.p-hero {
+  position: relative;
+  width: 100%;
+  height: 0;
+  min-width: 80%;
+  z-index: 40;
+  padding-bottom: 46.25%;
+}
+
+.p-hero__png--pc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  width: 100%;
+  height: 0;
+  padding-bottom: 46.25%;
+  background-image: url(../img/IMG_2428.JPG);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+}
+
+.p-hero__png__layer--pc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  width: 100%;
+  height: 0;
+  padding-bottom: 46.25%;
+  background-image: url(../img/IMG_2428__layer.png);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.p-hero__png__layer--pc:hover {
+  display: block;
+  opacity: 1;
+}
+
+.p-hero__label {
+  position: absolute;
+  z-index: 50;
+  top: 140px;
+  left: 15%;
+  font-size: 48px;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+}
+
+.p-hero__png--sp {
+  display: none;
+}
+
+.p-button__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.p-button {
+  width: 20%;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: #e2f020;
+  border-radius: 65px;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.c-btn-label {
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+/**
+* Foundation
+* ========================== */
+/**
+* Layout
+* ========================== */
+/**
+/* object
+* ========================== */
+/*component */
+/*project */
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.p-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width:100%;
+  height:60px;
+  background-color: rgb(255, 201, 210);
+  font-family: 'Architects Daughter', cursive;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+
+.p-header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-right: 40px;
+}
+
+
+.p-header__nav__block{
+  margin-top: -10px;
+  width: 40%;
+  height: 25px;
+}
+
+.p-header__nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 35%;
+}
+.p-header__nav__item_label{
+  padding: 10px 15px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+	font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
