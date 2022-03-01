@@ -1,4 +1,5 @@
 //スタートのアニメーション
+//閉まっている幕がでてきて、開き、消える。
 $(function() {
 
 	setTimeout(function open_curtain(){
